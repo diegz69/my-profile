@@ -1,0 +1,63 @@
+body {
+	background-color: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+
+}
+
+h1, h2, h3 {
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #575F7D;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+h2 {
+	color: #69B380;
+	trans
+	font-size: 20px;
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+	color: #2917c4;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+/* Custome design */
+
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+.img-circle {
+	border: 10px;
+	border-color: red;
+	border-radius: 50%;
+}
+.card-white {
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border-radius: 4px;
+	margin: 20px;
+	padding: 40px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #2917c4;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
